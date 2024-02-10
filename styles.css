@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100vw;
+    min-height: 100vh;
+}
+
+body {
+    background-image: url(./images/Background_FCC_Project_Build_A_Survey_Form.png);
+    background-repeat: repeat;
+    background-size: 100%;
+    font-family: 'Outfit', sans-serif;
+    color: #FFF;
+}
+
+/* HEADER */
+#title {
+    margin: 70px 0 7px 0;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+#description {
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+/* FORM */
+form {
+    width: 1034px;
+    margin: auto;
+    margin-bottom: 70px;
+    padding: 80px 0 80px 0;
+    border-radius: 50px;
+    background-color: #1C193B85;
+}
+
+fieldset {
+    border: none;
+    margin: 0 50px 60px 50px;
+}
+
+.fieldset-content {
+    width: 874px;
+    margin: 0 30px 0 30px;
+}
+
+legend {
+    display: block;
+    width: 100%;
+    height: 75px;
+    margin-bottom: 50px;
+    line-height: 75px;
+    border-radius: 50px;
+    background-color: #E0799B;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 900;
+    color: #FFF;
+}
+
+label,
+input,
+select {
+    display: block;
+    width: 100%;
+    border-style: none;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input {
+    width: 834px;
+}
+
+input,
+select,
+textarea {
+    margin-bottom: 20px;
+    padding: 0 20px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+::placeholder, select:invalid, input[type="date"]:invalid {
+    color: #757575;
+    /* font-weight: 600; */
+}
+
+.radio-checkbox-group > .inline {
+    display: inline-block;
+    width: 216px;
+}
+
+.radio-checkbox-group > .newline {
+    display: block;
+    width: 100%;
+}
+
+.radio-checkbox-group > .newline, .radio-checkbox-group > .inline {
+    margin-bottom: 20px;
+    height: 50px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    vertical-align: middle;
+    accent-color: #E0799B;
+    cursor: pointer;
+}
+
+.radio-checkbox-text-inline {
+    display: inline-block;
+    width: 150px;
+    line-height: 50px;
+    margin-left: 4px;
+    padding: 0 0 0 4px;
+    border-radius: 0 10px 10px 0;
+    border-radius: 10px;
+    vertical-align: middle;
+    background-color: #FFF;
+    font-size: 22px;
+    font-weight: 400;
+    color: #000;
+}
+
+.radio-checkbox-group > .newline > .radio-checkbox-text-inline, .terms-and-conditions {
+    width: 810px;
+}
+
+textarea {
+    width: 834px;
+    height: 200px;
+    border-radius: 10px;
+    font-size: 24px;
+}
+
+#terms-and-conditions {
+    vertical-align: center;
+}
+
+.terms-and-conditions {
+    display: inline-block;
+    line-height: 50px;
+    margin-top: 10px;
+    margin-left: 4px;
+    vertical-align: middle;
+}
+
+a {
+    color: #E0799B;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFF;
+}
+
+#validation-buttons {
+    text-align: center;
+    margin: 0;
+}
+
+button {
+    display: inline-block;
+    width: 50%;
+    height: 50px;
+    font-size: 24px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button[type="reset"] {
+    margin-bottom: 10px;
+    background-color: #FFF;
+    color: #E0799B;
+}
+
+button[type="submit"] {
+    background-color: #E0799B;
+    color: #FFF;
+}
+
+button[type="reset"]:hover {
+    background-color: #dddddd;
+}
+
+button[type="submit"]:hover{
+    background-color: #ce738e;
+}
+
+.footer {
+    margin-bottom: 80px;
+    text-align: center;
+}
