@@ -1,4 +1,4 @@
-# FreeCodeCamp Certificate Project - Build a Survey Form
+# FreeCodeCamp - Responsive Web Design Certification - Project 01 - Build a Survey Form
 
 This is a solution to the [Build a Survey Form](https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-html-forms-by-building-a-registration-form) FreeCodeCamp Project.
 
