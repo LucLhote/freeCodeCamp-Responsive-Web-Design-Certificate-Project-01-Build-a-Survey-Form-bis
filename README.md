@@ -22,8 +22,8 @@ Build an app that is functionally similar to https://survey-form.freecodecamp.ro
 
 ### Links
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [https://github.com/LucLhote/freeCodeCamp-Responsive-Web-Design-Certificate-Project-01-Build-a-Survey-Form-bis](https://github.com/LucLhote/freeCodeCamp-Responsive-Web-Design-Certificate-Project-01-Build-a-Survey-Form-bis)
+- Live Site URL: [https://luclhote.github.io/freeCodeCamp-Responsive-Web-Design-Certificate-Project-01-Build-a-Survey-Form-bis/](https://luclhote.github.io/freeCodeCamp-Responsive-Web-Design-Certificate-Project-01-Build-a-Survey-Form-bis/)
 
 ### User Stories Checklist
 
